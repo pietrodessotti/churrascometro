@@ -23,7 +23,8 @@ function calculaResultado() {
     let calcRefrigerante = (adultos + criancas) * refrigerante;
 
     resultado.innerHTML = `
-    <p>${calcCarne.toFixed(2)} Kg de Carne</p>
+    <h2>Você vai precisar de:</h2>
+    <p>${calcCarne.toFixed(1)} Kg de Carne</p>
     <p>${Math.ceil(calcCerveja.toFixed(2))} Latas de Cerveja</p>
     <p>${Math.ceil(calcRefrigerante.toFixed(2))} Garrafas de Refrigerante</p>
    `
